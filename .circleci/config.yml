@@ -38,3 +38,7 @@ workflows:
       - two:
           requires:
             - one
+steps:
+  - add_ssh_keys:
+      fingerprints:
+        - "ec:37:d4:60:24:2e:7f:52:be:96:16:8d:db:01:f5:56"
